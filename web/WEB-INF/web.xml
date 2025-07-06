@@ -1,0 +1,11 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>SaludoServlet</servlet-name>
+        <servlet-class>servlets.SaludoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaludoServlet</servlet-name>
+        <url-pattern>/saludo</url-pattern>
+    </servlet-mapping>
+</web-app>
+
